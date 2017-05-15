@@ -16,6 +16,18 @@
 изображен символ самозакрывающегося HTML-тега без имени. Дальний от профиля
 край стакана смузи венчает плод клубники.
 
+### Сборка
+
+Для сборки логотипа нужного размера и формата можно воспользоваться скриптом для
+сборки:
+
+```
+$ npm run logo [-- [--logo-size 1024x1024] [--logo-output png|webp|jpeg]]
+```
+
+предварительно установив зависимости для сборки воспользуясь командой `npm i`
+или `yarn install`.
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
     <img
         alt="Creative Commons License" style="border-width:0"
